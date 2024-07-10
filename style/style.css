@@ -1,14 +1,21 @@
-.azeret-mono-normal {
+/* .azeret-mono-normal {
   font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+} */
+
+.roboto-mono {
+  font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
 /* Shared-style */
 .primary-text {
-  color: #343b4b;
+  padding: 20px 0;
+  margin: 30px 170px;
   text-align: center;
-  font-size: 16px;
+  color: #343b4b;
 }
 
 /* Banner Style */
@@ -49,7 +56,7 @@ button {
 .main-content {
   text-align: center;
   width: 1136px;
-  height: 1260px;
+  height: 760px;
   /* border: 2px solid limegreen; */
   margin-top: 74px;
   margin-bottom: 0px;
@@ -148,4 +155,137 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* Inspiration Content */
+.inspiration-container {
+  width: 1140px;
+  height: 770px;
+  /* border: 2px solid red; */
+}
+iframe {
+  margin: 70px auto;
+}
+/* Target Section */
+
+.target-content{
+  margin-top: 100px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+  
+}
+/* HTML-Style */
+.html{
+  background-color: #EBEBEB;
+  width: 350px;
+  height: 290px;
+  margin-right: 60px;
+  padding: 50px;
+}
+.html img {
+  /* display: flex; */
+  margin-right: 200px;
+}
+.html h1{
+  margin-right: 150px;
+}
+.html a {
+  margin-right: 150px;
+}
+/* CSS Style */
+.css{
+  background-color: #EBEBEB;
+  width: 350px;
+  height: 290px;
+  padding: 50px;
+  margin-right: 60px;
+}
+.css img {
+  /* display: flex; */
+  margin-right: 200px;
+}
+.css h1{
+  margin-right: 150px;
+}
+.css a {
+  margin-right: 150px;
+}
+/* JS Style */
+.js {
+  background-color: #EBEBEB;
+  width: 350px;
+  height: 290px;
+  padding: 50px;
+  margin-right: 60px;
+}
+.js img {
+  margin-right: 200px;
+}
+.js h1{
+  margin-right: 150px;
+}
+.js a {
+  margin-right: 150px;
+}
+
+/* Input Content */
+.support-section{
+  width: 1600px;
+  height: 390px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/images/handshake.jpg);
+}
+
+.support-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.support-input input{
+  width: 548px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid ;
+  border-radius: 7px;
+  background: #fff;
+  font-size: 16px;
+  margin: 0 15px;
+  padding: 19px 20px;
+}
+.support-input h1{
+  color: white;
+}
+.support-input button{
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.footer-section{
+  width: 1600px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.footer-conten{
+  display: flex;
+  width: 1600px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 40px 48px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-text{
+  
 }
